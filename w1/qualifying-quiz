@@ -9,16 +9,16 @@ void foo() {
 
 Which of the following are true?
 
-*Holds 128 elements
-bar[1] contains the first element
-All elements are initialized to 0
+*Holds 128 elements (+)
+bar[1] contains the first element (-)
+All elements are initialized to 0 (-)
 
 2. Consider the following code fragment: sizeof(int*) == sizeof(int). Which one of the following is true about it?
 
 This fragment will not compile (-)
 This fragment always evaluates to 0 (assuming it doesn't crash) (-)
 This fragment always evaluates to 1 (assuming it doesn't crash) (-)
-This fragment's result depends on the compiler and architecture
+This fragment's result depends on the compiler and architecture (+)
 This fragment will always crash
 
 3. Suppose you are compiling for a 32-bit platform and sizeof(int) == 4. Which one of the following is equivalent to c[b] if c is of type int* and b is of type int?
